@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		01315C443F7985A076E5D95E86203943 /* Pods-jvcLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7586AF3002A1005B571F7CD069256701 /* Pods-jvcLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03D41C7D2630ABAB00A1A6AC /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D41C7C2630ABAB00A1A6AC /* Utils.swift */; };
 		13CCCF492E276318F917FE283BC42C90 /* jvcLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C13DBBFF1B0272705F35FA934F570A /* jvcLib-dummy.m */; };
 		24128F1FB78733CA21B72E7FB656A3D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		56B24A9BC64071983B18188EB75336E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -38,38 +39,39 @@
 
 /* Begin PBXFileReference section */
 		02B9AF35BFDA3AD3A62F360ED8094162 /* jvcLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = jvcLib.debug.xcconfig; sourceTree = "<group>"; };
+		03D41C7C2630ABAB00A1A6AC /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Utils.swift; path = jvcLib/Classes/Utils.swift; sourceTree = "<group>"; };
 		0542E0C2074561D40F81A55B57041AB5 /* Pods-jvcLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jvcLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		227C6C87736C0F668DA875C1BC59B303 /* jvcLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = jvcLib.release.xcconfig; sourceTree = "<group>"; };
 		3A1C29CA29879EDF6FAE914EDF8DD788 /* Pods-jvcLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-jvcLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4D5693853F481D0519E0E4C7D7B46033 /* Pods-jvcLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jvcLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		54CA3DFF937AF9659D3439E308695857 /* Pods-jvcLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-jvcLib_Example.modulemap"; sourceTree = "<group>"; };
 		56E3DF7D9DA7DA74B94CDEA4B7E03FA1 /* Pods-jvcLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-jvcLib_Tests.modulemap"; sourceTree = "<group>"; };
-		58BB462D6F777B5ADDF21DA19CFA3035 /* jvcLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = jvcLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		58BB462D6F777B5ADDF21DA19CFA3035 /* jvcLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = jvcLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		58C13DBBFF1B0272705F35FA934F570A /* jvcLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "jvcLib-dummy.m"; sourceTree = "<group>"; };
 		5BFCB396F50AB809BA79D32597654AA2 /* jvcLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = jvcLib.modulemap; sourceTree = "<group>"; };
 		649BA9CF0C0EC9DB6F8645F0D98FCA2D /* Pods-jvcLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-jvcLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6BC6AB12B98CF2AEEF4E7B9CA46DAF6B /* jvcLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "jvcLib-Info.plist"; sourceTree = "<group>"; };
 		6E93BAFFEE5857EE499A80489BF60472 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = jvcLib/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		73FB23416E46CC9FCF083C6B7A4FE12B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		73FB23416E46CC9FCF083C6B7A4FE12B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7586AF3002A1005B571F7CD069256701 /* Pods-jvcLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jvcLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		78339116C460E41D9A99DFF304F7D845 /* Pods-jvcLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-jvcLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7CF02D81652E8DC62A40D97FF7FA7F0E /* Pods-jvcLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-jvcLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7F029F1C8BB2CF4312F212030F67549D /* Pods-jvcLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-jvcLib_Example-Info.plist"; sourceTree = "<group>"; };
-		92E3194383690D021C3A0C1933C33560 /* jvcLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = jvcLib.framework; path = jvcLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E3194383690D021C3A0C1933C33560 /* jvcLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = jvcLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96671C3910C059AE86EF7219EAA85C45 /* Pods-jvcLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jvcLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9B867A02EC905797288C3A2F3BBBA60D /* Pods-jvcLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-jvcLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E5D2A7993C3B7D27E8076E3FF031C61 /* Pods-jvcLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-jvcLib_Example-dummy.m"; sourceTree = "<group>"; };
 		A13104C24D33517D82A7E51C254D4056 /* jvcLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "jvcLib-prefix.pch"; sourceTree = "<group>"; };
 		A425F84B32F8F89E42278EB6E15659B7 /* Pods-jvcLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jvcLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A4EFA24825F7F5CFAB32621D026FCC23 /* Pods-jvcLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-jvcLib_Tests-Info.plist"; sourceTree = "<group>"; };
-		C0E3A18238FE80DF06BB38E271AAFEC6 /* Pods_jvcLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_jvcLib_Tests.framework; path = "Pods-jvcLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA219AF71BADF706BDC87B7A92C065A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C0E3A18238FE80DF06BB38E271AAFEC6 /* Pods_jvcLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jvcLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA219AF71BADF706BDC87B7A92C065A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		DC731DB83C62FB643C8356EA2FFBAB55 /* Pods-jvcLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jvcLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E3131BE624679B704C19108883C82111 /* Pods-jvcLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-jvcLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E3B998AA19E6DE51892E3E5CF638E689 /* jvcLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "jvcLib-umbrella.h"; sourceTree = "<group>"; };
-		F55FC0C0DAD4323C6FACDD0A0230D79F /* Pods_jvcLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_jvcLib_Example.framework; path = "Pods-jvcLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55FC0C0DAD4323C6FACDD0A0230D79F /* Pods_jvcLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jvcLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 				6E93BAFFEE5857EE499A80489BF60472 /* ReplaceMe.swift */,
 				3536116969DC86B006A82FF0ECD338FE /* Pod */,
 				9D00784323A290F0249A544D190A5BD4 /* Support Files */,
+				03D41C7C2630ABAB00A1A6AC /* Utils.swift */,
 			);
 			name = jvcLib;
 			path = ../..;
@@ -377,6 +380,7 @@
 			files = (
 				13CCCF492E276318F917FE283BC42C90 /* jvcLib-dummy.m in Sources */,
 				AE8012B33D751BAFC0AD5A13A689C3B8 /* ReplaceMe.swift in Sources */,
+				03D41C7D2630ABAB00A1A6AC /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -685,8 +689,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
