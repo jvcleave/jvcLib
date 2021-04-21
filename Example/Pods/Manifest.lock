@@ -1,0 +1,16 @@
+PODS:
+  - jvcLib (0.1.0)
+
+DEPENDENCIES:
+  - jvcLib (from `../`)
+
+EXTERNAL SOURCES:
+  jvcLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  jvcLib: 7e97f0d0dd7d61c8cac54c9a7ad931322d9129f3
+
+PODFILE CHECKSUM: a4fcf8e78510d98994a295fb497538898907e499
+
+COCOAPODS: 1.10.1

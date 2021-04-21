@@ -1,0 +1,6 @@
+framework module Pods_jvcLib_Example {
+  umbrella header "Pods-jvcLib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
