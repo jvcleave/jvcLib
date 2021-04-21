@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'jvcLib_Example' do
+  pod 'jvcLib', :path => '../'
+
+  target 'jvcLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
