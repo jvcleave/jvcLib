@@ -1,0 +1,6 @@
+framework module jvcLib {
+  umbrella header "jvcLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

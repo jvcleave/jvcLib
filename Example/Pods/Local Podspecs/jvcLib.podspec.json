@@ -1,0 +1,22 @@
+{
+  "name": "jvcLib",
+  "version": "0.1.0",
+  "summary": "A short description of jvcLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/git/jvcLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "git": "jvcleave@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/git/jvcLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "jvcLib/Classes/**/*"
+}
