@@ -3,15 +3,6 @@
 #import <CoreData/CoreData.h>
 #include <jvcLib/jvcLib-Swift.h>
 
-#if 0
-@interface UnityPlugin : NSObject
-+ (UnityPlugin * _Nonnull)shared;
-- (NSInteger)addWithA:(NSInteger)a b:(NSInteger)b ;
-- (NSInteger)retrieveRecordCount ;
-- (nonnull instancetype)init ;
-@end
-#endif
-
 extern "C" {
 
 #pragma mark - Functions
@@ -28,5 +19,13 @@ int getRecordCount()
     int result = [[UnityPlugin shared] retrieveRecordCount];
     return result;
 }
+
+
+void printString(const char* value)
+{
+    
+    [[UnityPlugin shared] printStringWithS:[[NSString alloc] initWithCString:value encoding:NSUTF8StringEncoding]];
+}
+
 
 }

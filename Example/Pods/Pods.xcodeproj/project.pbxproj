@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		01315C443F7985A076E5D95E86203943 /* Pods-jvcLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7586AF3002A1005B571F7CD069256701 /* Pods-jvcLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		03D41D462631EC8C00A1A6AC /* UnityPlugin-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 03D41D452631EC8C00A1A6AC /* UnityPlugin-Bridging-Header.h */; };
 		17D876EFB86DF5CAA5ECCE92A58A1C6E /* jvcLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB1DB186F3A6FF5F60320433ADB4A01F /* jvcLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F0BD0029FECE3690732B7A74D9A5273 /* UnityPlugin-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D2D6547C6FEC670D6FD95FEDE49E423 /* UnityPlugin-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F071FB7062CEF581C21553AFD84DA14 /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 584D6DF324CE1E58BE67EBE283EF2009 /* Database.xcdatamodeld */; };
 		53AAB2FF7602D291CCA1597354F17CDC /* UnityPluginBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 20825C5C59A353745EC08F01ACC876CA /* UnityPluginBridge.mm */; };
 		56B24A9BC64071983B18188EB75336E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -40,16 +40,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01E8353423EF7499F4A67C10DDFD3089 /* jvcLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = jvcLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		03D41D452631EC8C00A1A6AC /* UnityPlugin-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UnityPlugin-Bridging-Header.h"; path = "jvcLib/Classes/UnityPlugin-Bridging-Header.h"; sourceTree = "<group>"; };
+		01E8353423EF7499F4A67C10DDFD3089 /* jvcLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = jvcLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		0542E0C2074561D40F81A55B57041AB5 /* Pods-jvcLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jvcLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		18F815079E0ED08FDBBB209F7DDF8697 /* UnveilDatabase.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = UnveilDatabase.xcdatamodel; sourceTree = "<group>"; };
-		20825C5C59A353745EC08F01ACC876CA /* UnityPluginBridge.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = UnityPluginBridge.mm; path = jvcLib/Classes/UnityPluginBridge.mm; sourceTree = "<group>"; };
+		20825C5C59A353745EC08F01ACC876CA /* UnityPluginBridge.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = UnityPluginBridge.mm; path = jvcLib/Classes/UnityPluginBridge.mm; sourceTree = "<group>"; };
 		287A355ED5BBB6E05AC1643C0D35143E /* jvcLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = jvcLib.modulemap; sourceTree = "<group>"; };
 		381EC8A671A3EF18D291031627C44405 /* jvcLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "jvcLib-Info.plist"; sourceTree = "<group>"; };
 		3A1C29CA29879EDF6FAE914EDF8DD788 /* Pods-jvcLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-jvcLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4D5693853F481D0519E0E4C7D7B46033 /* Pods-jvcLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jvcLib_Example-umbrella.h"; sourceTree = "<group>"; };
-		506E669500289D8AEA45FBDCDAB36205 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		506E669500289D8AEA45FBDCDAB36205 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		54CA3DFF937AF9659D3439E308695857 /* Pods-jvcLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-jvcLib_Example.modulemap"; sourceTree = "<group>"; };
 		56E3DF7D9DA7DA74B94CDEA4B7E03FA1 /* Pods-jvcLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-jvcLib_Tests.modulemap"; sourceTree = "<group>"; };
 		584E94F58AE9F403B699F4177C0A17B2 /* jvcLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = jvcLib.release.xcconfig; sourceTree = "<group>"; };
@@ -58,24 +57,25 @@
 		7586AF3002A1005B571F7CD069256701 /* Pods-jvcLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-jvcLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		78339116C460E41D9A99DFF304F7D845 /* Pods-jvcLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-jvcLib_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7CF02D81652E8DC62A40D97FF7FA7F0E /* Pods-jvcLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-jvcLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7D2D6547C6FEC670D6FD95FEDE49E423 /* UnityPlugin-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UnityPlugin-Bridging-Header.h"; path = "jvcLib/Classes/UnityPlugin-Bridging-Header.h"; sourceTree = "<group>"; };
 		7F029F1C8BB2CF4312F212030F67549D /* Pods-jvcLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-jvcLib_Example-Info.plist"; sourceTree = "<group>"; };
 		8650487F468C002AAE77B1FEBBC7D802 /* jvcLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "jvcLib-dummy.m"; sourceTree = "<group>"; };
-		92E3194383690D021C3A0C1933C33560 /* jvcLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = jvcLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92E3194383690D021C3A0C1933C33560 /* jvcLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = jvcLib.framework; path = jvcLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9625DA6F99E547E3CC37A74394941330 /* jvcLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "jvcLib-prefix.pch"; sourceTree = "<group>"; };
 		96671C3910C059AE86EF7219EAA85C45 /* Pods-jvcLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jvcLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9B867A02EC905797288C3A2F3BBBA60D /* Pods-jvcLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-jvcLib_Tests-dummy.m"; sourceTree = "<group>"; };
 		9CD2A35AF335F4ABD885D8E48CCDD715 /* UnityPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnityPlugin.swift; path = jvcLib/Classes/UnityPlugin.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E5D2A7993C3B7D27E8076E3FF031C61 /* Pods-jvcLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-jvcLib_Example-dummy.m"; sourceTree = "<group>"; };
 		A425F84B32F8F89E42278EB6E15659B7 /* Pods-jvcLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jvcLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A4EFA24825F7F5CFAB32621D026FCC23 /* Pods-jvcLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-jvcLib_Tests-Info.plist"; sourceTree = "<group>"; };
-		AF9436E7AA8B0A4F1ED441C8EE68F9DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		AF9436E7AA8B0A4F1ED441C8EE68F9DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		BB1DB186F3A6FF5F60320433ADB4A01F /* jvcLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "jvcLib-umbrella.h"; sourceTree = "<group>"; };
-		C0E3A18238FE80DF06BB38E271AAFEC6 /* Pods_jvcLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jvcLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0E3A18238FE80DF06BB38E271AAFEC6 /* Pods_jvcLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_jvcLib_Tests.framework; path = "Pods-jvcLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC731DB83C62FB643C8356EA2FFBAB55 /* Pods-jvcLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jvcLib_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E3131BE624679B704C19108883C82111 /* Pods-jvcLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-jvcLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E318954D7F846EA488CB074003400946 /* jvcLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = jvcLib.debug.xcconfig; sourceTree = "<group>"; };
-		F55FC0C0DAD4323C6FACDD0A0230D79F /* Pods_jvcLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jvcLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F55FC0C0DAD4323C6FACDD0A0230D79F /* Pods_jvcLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_jvcLib_Example.framework; path = "Pods-jvcLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,9 +132,9 @@
 		2777D99C2FC91F685B1000AB106F268A /* jvcLib */ = {
 			isa = PBXGroup;
 			children = (
-				03D41D452631EC8C00A1A6AC /* UnityPlugin-Bridging-Header.h */,
 				584D6DF324CE1E58BE67EBE283EF2009 /* Database.xcdatamodeld */,
 				9CD2A35AF335F4ABD885D8E48CCDD715 /* UnityPlugin.swift */,
+				7D2D6547C6FEC670D6FD95FEDE49E423 /* UnityPlugin-Bridging-Header.h */,
 				20825C5C59A353745EC08F01ACC876CA /* UnityPluginBridge.mm */,
 				4FF4F07B6CC425D09DCD5D72DDBE2B39 /* Pod */,
 				2250F7B499C9528D95404679897D9C8C /* Support Files */,
@@ -239,8 +239,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03D41D462631EC8C00A1A6AC /* UnityPlugin-Bridging-Header.h in Headers */,
 				17D876EFB86DF5CAA5ECCE92A58A1C6E /* jvcLib-umbrella.h in Headers */,
+				2F0BD0029FECE3690732B7A74D9A5273 /* UnityPlugin-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,7 +673,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -795,7 +796,6 @@
 			children = (
 				18F815079E0ED08FDBBB209F7DDF8697 /* UnveilDatabase.xcdatamodel */,
 			);
-			currentVersion = 18F815079E0ED08FDBBB209F7DDF8697 /* UnveilDatabase.xcdatamodel */;
 			name = Database.xcdatamodeld;
 			path = jvcLib/Assets/Database.xcdatamodeld;
 			sourceTree = "<group>";

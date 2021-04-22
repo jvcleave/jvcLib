@@ -31,7 +31,8 @@ class ViewController: UIViewController {
             let b =  Int.random(in: 1..<10);
             let result = self.utils.add(a: a, b: b)
             let count = self.utils.retrieveRecordCount();
-            self.label.text = String("\(a) + \(b) = \(result) : \(count)");
+            let string  = String("\(a) + \(b) = \(result) : \(count)")
+            self.utils.printString(s: string)
         }
         
         

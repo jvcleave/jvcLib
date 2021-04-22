@@ -105,5 +105,14 @@ import CoreData
         return total;
     }
     
+    
+    @objc public func printString(s:String)
+    {
+        
+        print("string is : \(s)")
+
+    }
+    
+    
 }
 
