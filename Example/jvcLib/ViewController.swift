@@ -11,15 +11,33 @@ import jvcLib
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
+    
+    var timer:Timer!
+    
+    let utils = UnityPlugin();
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let utils = UnityPlugin();
-        let result = utils.add(a: 10, b: 10);
-        print("result : \(result)")
-
+        timer = Timer.scheduledTimer(timeInterval: 1.0/60, target: self, selector: #selector(onTimer), userInfo: nil, repeats: true)
     }
 
+    @objc func onTimer() {
+        
+        DispatchQueue.main.async {
+            
+            let a =  Int.random(in: 1..<10);
+            let b =  Int.random(in: 1..<10);
+            let result = self.utils.add(a: a, b: b)
+            let count = self.utils.retrieveRecordCount();
+            self.label.text = String("\(a) + \(b) = \(result) : \(count)");
+        }
+        
+        
+
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
