@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.swift_version = '5.2'
 
   s.source_files = 'jvcLib/Classes/**/*'
-  s.resources = "jvcLib/Assets/*.xcdatamodeld"
+  s.resources = "jvcLib/*.xcdatamodeld"
   
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

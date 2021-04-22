@@ -7,7 +7,12 @@ import CoreData
     var persistentContainer: NSPersistentContainer!
     
     public override init() {
-        self.persistentContainer = NSPersistentContainer(name: "UnveilDatabase")
+        
+        //let modelURL = Bundle(for: self).url(forResource: "Your model file name", withExtension: "momd")
+        //let modelURL = Bundle(for: jvcLib.self).url(forResource: "Database", withExtension: "momd")
+        
+        
+        self.persistentContainer = NSPersistentContainer(name: "Database")
         self.persistentContainer.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
