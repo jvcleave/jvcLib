@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "UnityPlugin-Bridging-Header.h"
 
 FOUNDATION_EXPORT double jvcLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char jvcLibVersionString[];

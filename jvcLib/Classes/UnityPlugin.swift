@@ -78,7 +78,6 @@ import CoreData
     
 }
 
-
 @objc public class UnityPlugin : NSObject {
     
     @objc public static let shared = UnityPlugin()
