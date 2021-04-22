@@ -32,10 +32,7 @@ Pod::Spec.new do |s|
   s.swift_version = '5.2'
 
   s.source_files = 'jvcLib/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'jvcLib' => ['jvcLib/Assets/*.png']
-  # }
+  s.resources = 'jvcLib/Assets/Database.xcdatamodeld'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
