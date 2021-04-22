@@ -33,9 +33,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'jvcLib/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'jvcLib' => ['jvcLib/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'jvcLib' => ['jvcLib/Assets/*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

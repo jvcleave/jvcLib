@@ -14,8 +14,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        let utils = JVCUtils();
-        utils.test();
+        let utils = UnityPlugin();
+        let result = utils.add(a: 10, b: 10);
+        print("result : \(result)")
+
     }
 
     override func didReceiveMemoryWarning() {
