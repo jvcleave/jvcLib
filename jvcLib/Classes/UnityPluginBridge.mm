@@ -9,12 +9,7 @@
 - (nonnull instancetype)init ;
 @end
 
-@implementation UnityPlugin
 
-
-
-
-@end
 
 extern "C" {
 

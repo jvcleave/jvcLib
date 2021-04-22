@@ -453,11 +453,12 @@
 			};
 			name = Release;
 		};
-		39F332A2F7FC9BB6E15E6BF810D59927 /* Debug */ = {
+		091F56E8DE6C0FF2223B22886302028A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E318954D7F846EA488CB074003400946 /* jvcLib.debug.xcconfig */;
+			baseConfigurationReference = 584E94F58AE9F403B699F4177C0A17B2 /* jvcLib.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -469,7 +470,40 @@
 				GCC_PREFIX_HEADER = "Target Support Files/jvcLib/jvcLib-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/jvcLib/jvcLib-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/jvcLib/jvcLib.modulemap";
+				PRODUCT_MODULE_NAME = jvcLib;
+				PRODUCT_NAME = jvcLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39930799DFAAB1D89B8E537AC9234F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E318954D7F846EA488CB074003400946 /* jvcLib.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/jvcLib/jvcLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/jvcLib/jvcLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/jvcLib/jvcLib.modulemap";
 				PRODUCT_MODULE_NAME = jvcLib;
@@ -517,38 +551,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		886452C41D6860FD77B526C8210E35D8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 584E94F58AE9F403B699F4177C0A17B2 /* jvcLib.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/jvcLib/jvcLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/jvcLib/jvcLib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/jvcLib/jvcLib.modulemap";
-				PRODUCT_MODULE_NAME = jvcLib;
-				PRODUCT_NAME = jvcLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -780,8 +782,8 @@
 		E3BA757C6E8F09526C2A1304480BD5CE /* Build configuration list for PBXNativeTarget "jvcLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39F332A2F7FC9BB6E15E6BF810D59927 /* Debug */,
-				886452C41D6860FD77B526C8210E35D8 /* Release */,
+				39930799DFAAB1D89B8E537AC9234F8A /* Debug */,
+				091F56E8DE6C0FF2223B22886302028A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
