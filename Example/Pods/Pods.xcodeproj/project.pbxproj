@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		01315C443F7985A076E5D95E86203943 /* Pods-jvcLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7586AF3002A1005B571F7CD069256701 /* Pods-jvcLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		03D41CD82631CF1300A1A6AC /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03D41CD62631CF1300A1A6AC /* Database.xcdatamodeld */; };
+		03D41CE12631D10F00A1A6AC /* Database.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03D41CDF2631D10F00A1A6AC /* Database.xcdatamodeld */; };
 		13CCCF492E276318F917FE283BC42C90 /* jvcLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C13DBBFF1B0272705F35FA934F570A /* jvcLib-dummy.m */; };
 		24128F1FB78733CA21B72E7FB656A3D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		56B24A9BC64071983B18188EB75336E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -39,7 +39,7 @@
 
 /* Begin PBXFileReference section */
 		02B9AF35BFDA3AD3A62F360ED8094162 /* jvcLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = jvcLib.debug.xcconfig; sourceTree = "<group>"; };
-		03D41CD72631CF1300A1A6AC /* UnveilDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UnveilDatabase.xcdatamodel; sourceTree = "<group>"; };
+		03D41CE02631D10F00A1A6AC /* UnveilDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UnveilDatabase.xcdatamodel; sourceTree = "<group>"; };
 		0542E0C2074561D40F81A55B57041AB5 /* Pods-jvcLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-jvcLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		227C6C87736C0F668DA875C1BC59B303 /* jvcLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = jvcLib.release.xcconfig; sourceTree = "<group>"; };
 		3A1C29CA29879EDF6FAE914EDF8DD788 /* Pods-jvcLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-jvcLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -122,7 +122,6 @@
 		3536116969DC86B006A82FF0ECD338FE /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				03D41CD62631CF1300A1A6AC /* Database.xcdatamodeld */,
 				58BB462D6F777B5ADDF21DA19CFA3035 /* jvcLib.podspec */,
 				CA219AF71BADF706BDC87B7A92C065A3 /* LICENSE */,
 				73FB23416E46CC9FCF083C6B7A4FE12B /* README.md */,
@@ -182,6 +181,7 @@
 		AC00B10528C5AF3B377B4C6C4140CCF7 /* jvcLib */ = {
 			isa = PBXGroup;
 			children = (
+				03D41CDF2631D10F00A1A6AC /* Database.xcdatamodeld */,
 				6E93BAFFEE5857EE499A80489BF60472 /* UnityPlugin.swift */,
 				3536116969DC86B006A82FF0ECD338FE /* Pod */,
 				9D00784323A290F0249A544D190A5BD4 /* Support Files */,
@@ -379,7 +379,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				13CCCF492E276318F917FE283BC42C90 /* jvcLib-dummy.m in Sources */,
-				03D41CD82631CF1300A1A6AC /* Database.xcdatamodeld in Sources */,
+				03D41CE12631D10F00A1A6AC /* Database.xcdatamodeld in Sources */,
 				AE8012B33D751BAFC0AD5A13A689C3B8 /* UnityPlugin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -770,14 +770,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		03D41CD62631CF1300A1A6AC /* Database.xcdatamodeld */ = {
+		03D41CDF2631D10F00A1A6AC /* Database.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				03D41CD72631CF1300A1A6AC /* UnveilDatabase.xcdatamodel */,
+				03D41CE02631D10F00A1A6AC /* UnveilDatabase.xcdatamodel */,
 			);
-			currentVersion = 03D41CD72631CF1300A1A6AC /* UnveilDatabase.xcdatamodel */;
+			currentVersion = 03D41CE02631D10F00A1A6AC /* UnveilDatabase.xcdatamodel */;
 			name = Database.xcdatamodeld;
-			path = jvcLib/Database.xcdatamodeld;
+			path = jvcLib/Assets/Database.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
